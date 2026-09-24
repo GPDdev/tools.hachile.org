@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#212121">
+  <meta name="description" content="Hachile 推荐的校园资源与实用网站。">
+  <title>Hachile Tools · 常用网址导航</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23212121'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-size='39'%3E🛠%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/style.css">
+  <script>
+    const savedTheme = localStorage.getItem('tools-theme');
+    document.documentElement.dataset.theme = savedTheme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  </script>
+</head>
+<body>
+  <aside class="sidebar" aria-label="主导航">
+    <nav class="side-links">
+      <a class="side-link active" href="#top" aria-current="page"><span class="side-icon" aria-hidden="true">▦</span><span>推荐</span></a>
+      <a class="side-link" href="#campus"><span class="side-icon" aria-hidden="true">♧</span><span>校园</span></a>
+      <a class="side-link" href="#study"><span class="side-icon" aria-hidden="true">✎</span><span>学习</span></a>
+      <a class="side-link" href="#utility"><span class="side-icon" aria-hidden="true">◇</span><span>工具</span></a>
+    </nav>
+    <button class="theme-button" id="theme-toggle" type="button" aria-label="切换亮暗模式" title="切换亮暗模式">☼</button>
+  </aside>
+
+  <div class="page" id="top">
+    <nav class="top-nav" aria-label="页面栏目">
+      <a href="#campus">♧ <span>校园</span></a>
+      <a href="#study">✎ <span>学习</span></a>
+      <a href="#utility">◇ <span>工具</span></a>
+      <a href="https://hachile.org/" target="_blank" rel="noopener noreferrer">⌂ <span>主页</span></a>
+    </nav>
+
+    <main class="content">
+      <form class="search" action="https://www.bing.com/search" method="get" role="search">
+        <span class="search-provider">Bing <span aria-hidden="true">⌄</span></span>
+        <input name="q" type="search" placeholder="使用 Bing 搜索" aria-label="使用 Bing 搜索" required>
+        <button type="submit" aria-label="搜索">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg>
+        </button>
+      </form>
+
+      <section class="section" aria-labelledby="quick-title">
+        <div class="section-heading"><h1 id="quick-title">快捷入口</h1><a href="#campus">查看全部</a></div>
+        <div class="card-grid">
+          <a class="link-card" href="https://github.com/GPDdev/GHCollege-Tongji-review-materials" target="_blank" rel="noopener noreferrer"><span class="card-icon">📚</span><span class="card-copy"><strong>国豪书院复习资料</strong><small>同济课程期末复习资料</small></span></a>
+          <a class="link-card" href="https://github.com/HSrockstar/Guohao_College_of_Tongji_University/tree/main" target="_blank" rel="noopener noreferrer"><span class="card-icon">🗂️</span><span class="card-copy"><strong>国豪书院课程资料</strong><small>课程资料共享仓库</small></span></a>
+          <a class="link-card" href="https://docs.ocsjs.com" target="_blank" rel="noopener noreferrer"><span class="card-icon">🧩</span><span class="card-copy"><strong>OCS 网课助手</strong><small>安装与使用文档</small></span></a>
+          <a class="link-card" href="https://www.ilovepdf.com/zh-cn" target="_blank" rel="noopener noreferrer"><span class="card-icon">📄</span><span class="card-copy"><strong>iLovePDF</strong><small>在线处理 PDF 文件</small></span></a>
+          <a class="link-card" href="https://www.tongji.icu/" target="_blank" rel="noopener noreferrer"><span class="card-icon">🎓</span><span class="card-copy"><strong>济你太美</strong><small>同济校园工作台</small></span></a>
+          <a class="link-card" href="https://www.kdocs.cn/l/cnbYWAvDVc19" target="_blank" rel="noopener noreferrer"><span class="card-icon">📝</span><span class="card-copy"><strong>金山文档</strong><small>推荐的共享文档</small></span></a>
+        </div>
+      </section>
+
+      <section class="section" id="campus" aria-labelledby="campus-title">
+        <div class="section-heading"><h2 id="campus-title">校园资源</h2></div>
+        <div class="card-grid">
+          <a class="link-card" href="https://github.com/GPDdev/GHCollege-Tongji-review-materials" target="_blank" rel="noopener noreferrer"><span class="card-icon">📚</span><span class="card-copy"><strong>国豪书院复习资料</strong><small>同济课程期末复习资料</small></span></a>
+          <a class="link-card" href="https://github.com/HSrockstar/Guohao_College_of_Tongji_University/tree/main" target="_blank" rel="noopener noreferrer"><span class="card-icon">🗂️</span><span class="card-copy"><strong>国豪书院课程资料</strong><small>课程资料共享仓库</small></span></a>
+          <a class="link-card" href="https://www.tongji.icu/" target="_blank" rel="noopener noreferrer"><span class="card-icon">🎓</span><span class="card-copy"><strong>济你太美</strong><small>同济校园工作台</small></span></a>
+          <a class="link-card" href="https://www.kdocs.cn/l/cnbYWAvDVc19" target="_blank" rel="noopener noreferrer"><span class="card-icon">📝</span><span class="card-copy"><strong>金山文档</strong><small>推荐的共享文档</small></span></a>
+        </div>
+      </section>
+
+      <section class="section" id="study" aria-labelledby="study-title">
+        <div class="section-heading"><h2 id="study-title">学习与写作</h2></div>
+        <div class="card-grid">
+          <a class="link-card" href="https://docs.ocsjs.com" target="_blank" rel="noopener noreferrer"><span class="card-icon">🧩</span><span class="card-copy"><strong>OCS 网课助手</strong><small>安装与使用文档</small></span></a>
+          <a class="link-card" href="https://www.ilovepdf.com/zh-cn" target="_blank" rel="noopener noreferrer"><span class="card-icon">📄</span><span class="card-copy"><strong>iLovePDF</strong><small>在线处理 PDF 文件</small></span></a>
+          <a class="link-card" href="https://www.processon.com/latex" target="_blank" rel="noopener noreferrer"><span class="card-icon">∑</span><span class="card-copy"><strong>ProcessOn LaTeX</strong><small>在线公式编辑器</small></span></a>
+          <a class="link-card" href="https://www.ailv.run/" target="_blank" rel="noopener noreferrer"><span class="card-icon">✦</span><span class="card-copy"><strong>AI率</strong><small>AI 内容检测与表达检查</small></span></a>
+        </div>
+      </section>
+
+      <section class="section" id="utility" aria-labelledby="utility-title">
+        <div class="section-heading"><h2 id="utility-title">地图与网络</h2></div>
+        <div class="card-grid">
+          <a class="link-card" href="https://railmapgen.org" target="_blank" rel="noopener noreferrer"><span class="card-icon">🚇</span><span class="card-copy"><strong>Rail Map Toolkit</strong><small>绘制地铁线路图</small></span></a>
+          <a class="link-card" href="https://www.youbianku.com/#google_vignette" target="_blank" rel="noopener noreferrer"><span class="card-icon">✉️</span><span class="card-copy"><strong>邮编库</strong><small>查询邮政编码</small></span></a>
+          <a class="link-card" href="http://ping0.cc/" target="_blank" rel="noopener noreferrer"><span class="card-icon">📡</span><span class="card-copy"><strong>Ping0</strong><small>IP 查询与网络检测</small></span></a>
+          <a class="link-card" href="https://www.f5soft.site/apps/wayfinder/" target="_blank" rel="noopener noreferrer"><span class="card-icon">🧭</span><span class="card-copy"><strong>寻路</strong><small>F5 的路线工具</small></span></a>
+          <a class="link-card" href="https://www.speedtest.net/" target="_blank" rel="noopener noreferrer"><span class="card-icon">⚡</span><span class="card-copy"><strong>Speedtest</strong><small>网络速度测试</small></span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>© 2026 Hachile Tools · 推荐网站导航</footer>
+  </div>
+
+  <script>
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+      const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = next;
+      localStorage.setItem('tools-theme', next);
+    });
+  </script>
+</body>
+</html>
